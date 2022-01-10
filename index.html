@@ -13,7 +13,7 @@
 <body>
 
     <div id="app">
-        <ol>
+        <ol v-if="emails.length == 10">
             <li v-for="(email, index) in emails">{{email}}</li>
         </ol>
     </div>

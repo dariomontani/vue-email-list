@@ -16,7 +16,6 @@ const app = new Vue({
                 .then((response) => {
                     console.log(response.data.response);
                     this.emails.push(response.data.response);
-                    
                 })
                 .catch((error) => {
                     console.log(error);
